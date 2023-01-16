@@ -13,6 +13,10 @@ public class Route {
 		this.destination = destination;
 	}
 	
+	public Route() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getSource() {
 		return source;
 	}

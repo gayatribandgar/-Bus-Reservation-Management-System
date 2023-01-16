@@ -12,7 +12,8 @@ public class Constant {
 		public static String  HEADER_MSG = "*~*~*~*~*~*~* Welcome *~*~*~*~*~*~*"
 				+ "\n*~*~*~*~*~*~*~*...To...*~*~*~*~*~*~*~*"
 				+ "\n Our Bus Reservation Application";
-		public static String FOOTER_MSG = "\n\n\n######   \u0968\u0966\u0968\u0968 ###### ";
+		
+	
 		
 	
 
