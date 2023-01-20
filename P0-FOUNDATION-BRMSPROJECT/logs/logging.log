@@ -1,0 +1,709 @@
+2023-01-18 21:41:23 DEBUG RouteDaoImpl:43 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('1005','k','l') 
+  2023-01-18 21:41:24 INFO  RouteDaoImpl:46 - Added Route Details
+  2023-01-18 22:46:04 DEBUG RouteDaoImpl:43 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('R0001','a','b') 
+  2023-01-18 22:46:04 INFO  RouteDaoImpl:46 - Added Route Details
+  2023-01-18 22:46:24 DEBUG RouteDaoImpl:43 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('R0002','c','d') 
+  2023-01-18 22:46:24 INFO  RouteDaoImpl:46 - Added Route Details
+  2023-01-19 11:28:40 DEBUG RouteDaoImpl:44 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('R0001','c','f'') 
+  2023-01-19 11:28:57 DEBUG RouteDaoImpl:44 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('R0001','c','f') 
+  2023-01-19 11:57:33 DEBUG RouteDaoImpl:44 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('R0001','c','f') 
+  2023-01-19 12:02:12 INFO  RouteDaoImpl:34 - enter Route Id
+  2023-01-19 12:02:25 INFO  RouteDaoImpl:36 - enter  Source
+  2023-01-19 12:02:31 INFO  RouteDaoImpl:38 - enter Destination
+  2023-01-19 12:02:33 DEBUG RouteDaoImpl:44 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('R0001','c','f') 
+  2023-01-19 12:02:58 INFO  RouteDaoImpl:34 - enter Route Id
+  2023-01-19 12:03:05 INFO  RouteDaoImpl:36 - enter  Source
+  2023-01-19 12:03:07 INFO  RouteDaoImpl:38 - enter Destination
+  2023-01-19 12:03:11 DEBUG RouteDaoImpl:44 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('R0003','s','t') 
+  2023-01-19 12:03:11 INFO  RouteDaoImpl:47 - Added Route Details
+  2023-01-19 12:03:11 INFO  RouteDaoImpl:49 - Values inserted Successfully
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0001, source=c, destination=f]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0002, source=c, destination=d]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0003, source=s, destination=t]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0005, source=pune, destination=Hyd]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0006, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0007, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0008, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0009, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0011, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0012, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0013, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0014, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0015, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0016, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0018, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0019, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0020, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0021, source=r, destination=z]
+  2023-01-19 21:40:41 INFO  RouteDaoImpl:103 - Route [routeId=R0022, source=r, destination=z]
+  2023-01-19 22:19:58 INFO  RouteDaoImpl:34 - enter Route Id
+  2023-01-19 22:20:14 INFO  RouteDaoImpl:36 - enter  Source
+  2023-01-19 22:20:39 INFO  RouteDaoImpl:38 - enter Destination
+  2023-01-19 22:20:44 DEBUG RouteDaoImpl:44 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('R0025','Kul','Hyd') 
+  2023-01-19 22:20:44 INFO  RouteDaoImpl:47 - Added Route Details
+  2023-01-19 22:20:44 INFO  RouteDaoImpl:49 - Values inserted Successfully
+  2023-01-19 22:40:38 INFO  LoginImplementation:24 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-19 22:40:38 INFO  LoginImplementation:25 - 
+Enter your USERNAME  :-
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0001, source=c, destination=f]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0002, source=c, destination=d]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0003, source=s, destination=t]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0005, source=pune, destination=Hyd]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0006, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0007, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0008, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0009, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0011, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0012, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0013, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0014, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0015, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0016, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0018, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0019, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0020, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0021, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0022, source=r, destination=z]
+  2023-01-19 23:56:38 INFO  RouteDaoImpl:103 - Route [routeId=R0025, source=Kul, destination=Hyd]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0001, source=c, destination=f]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0002, source=c, destination=d]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0003, source=s, destination=t]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0005, source=pune, destination=Hyd]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0006, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0007, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0008, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0009, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0011, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0012, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0013, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0014, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0015, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0016, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0018, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0019, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0020, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0021, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0022, source=r, destination=z]
+  2023-01-19 23:57:30 INFO  RouteDaoImpl:103 - Route [routeId=R0025, source=Kul, destination=Hyd]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0001, source=c, destination=f]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0002, source=c, destination=d]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0003, source=s, destination=t]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0005, source=pune, destination=Hyd]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0006, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0007, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0008, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0009, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0011, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0012, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0013, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0014, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0015, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0016, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0018, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0019, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0020, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0021, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0022, source=r, destination=z]
+  2023-01-19 23:58:58 INFO  RouteDaoImpl:103 - Route [routeId=R0025, source=Kul, destination=Hyd]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0001, source=c, destination=f]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0002, source=c, destination=d]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0003, source=s, destination=t]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0005, source=pune, destination=Hyd]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0006, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0007, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0008, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0009, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0011, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0012, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0013, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0014, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0015, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0016, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0018, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0019, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0020, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0021, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0022, source=r, destination=z]
+  2023-01-19 23:59:02 INFO  RouteDaoImpl:103 - Route [routeId=R0025, source=Kul, destination=Hyd]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0001, source=c, destination=f]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0002, source=c, destination=d]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0003, source=s, destination=t]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0005, source=pune, destination=Hyd]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0006, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0007, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0008, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0009, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0011, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0012, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0013, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0014, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0015, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0016, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0018, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0019, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0020, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0021, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0022, source=r, destination=z]
+  2023-01-19 23:59:49 INFO  RouteDaoImpl:103 - Route [routeId=R0025, source=Kul, destination=Hyd]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0001, source=c, destination=f]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0002, source=c, destination=d]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0003, source=s, destination=t]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0005, source=pune, destination=Hyd]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0006, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0007, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0008, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0009, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0011, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0012, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0013, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0014, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0015, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0016, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0018, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0019, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0020, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0021, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0022, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0025, source=Kul, destination=Hyd]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0001, source=c, destination=f]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0002, source=c, destination=d]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0003, source=s, destination=t]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0005, source=pune, destination=Hyd]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0006, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0007, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0008, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0009, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0011, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0012, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0013, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0014, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0015, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0016, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0018, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0019, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0020, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0021, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0022, source=r, destination=z]
+  2023-01-20 00:00:15 INFO  RouteDaoImpl:103 - Route [routeId=R0025, source=Kul, destination=Hyd]
+  2023-01-20 00:48:02 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 00:48:02 INFO  RouteDaoImpl:103 - Route [routeId=R0001, source=r, destination=z]
+  2023-01-20 00:48:02 INFO  RouteDaoImpl:103 - Route [routeId=R0002, source=p, destination=q]
+  2023-01-20 00:48:02 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 00:48:02 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 00:48:02 INFO  RouteDaoImpl:103 - Route [routeId=R0001, source=r, destination=z]
+  2023-01-20 00:48:02 INFO  RouteDaoImpl:103 - Route [routeId=R0002, source=p, destination=q]
+  2023-01-20 00:48:02 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 09:39:27 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:39:27 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:40:11 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:40:21 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:40:21 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 09:41:48 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:41:48 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:41:54 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:41:57 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:41:57 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 09:42:45 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:42:45 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:42:50 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:42:53 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:42:53 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 09:43:50 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:43:50 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:44:21 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:44:26 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:44:26 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 09:44:29 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:44:29 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:45:11 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:45:11 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:45:15 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:45:20 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:45:20 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 09:46:41 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:46:41 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:46:45 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:46:48 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:46:48 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 09:48:30 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:48:30 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:48:34 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:48:38 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:48:38 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 09:52:00 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:52:00 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:52:11 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:52:14 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:52:14 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 09:54:05 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:54:05 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:54:25 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:54:28 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:54:28 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 09:57:48 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:57:48 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:57:53 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:57:56 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:57:56 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 09:59:13 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:59:13 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:59:18 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:59:49 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 09:59:49 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 09:59:55 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 09:59:58 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 09:59:58 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 10:05:52 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:05:52 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:05:54 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:06:34 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:08:28 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:08:50 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:08:50 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 10:08:55 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 10:08:59 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 10:08:59 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:09:23 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:10:28 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:11:23 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:11:23 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 10:11:28 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 10:11:31 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 10:11:31 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 10:12:40 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:12:40 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 10:12:55 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:12:55 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 10:13:06 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 10:13:09 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 10:13:09 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 10:16:01 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:16:01 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 10:16:11 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 10:16:15 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 10:16:15 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 10:16:54 INFO  RouteDaoImpl:34 - enter Route Id
+  2023-01-20 10:17:06 INFO  RouteDaoImpl:36 - enter  Source
+  2023-01-20 10:17:08 INFO  RouteDaoImpl:38 - enter Destination
+  2023-01-20 10:17:09 DEBUG RouteDaoImpl:44 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('110','r','k') 
+  2023-01-20 10:17:09 INFO  RouteDaoImpl:47 - Added Route Details
+  2023-01-20 10:17:09 INFO  RouteDaoImpl:49 - Values inserted Successfully
+  2023-01-20 10:17:32 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 10:17:32 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 10:17:32 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 10:17:32 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 10:17:32 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 10:17:32 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 10:17:32 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 10:17:32 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 10:17:32 INFO  RouteDaoImpl:103 - Route [routeId=110, source=r, destination=k]
+  2023-01-20 10:17:32 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 10:20:34 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:20:34 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 10:20:45 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 10:20:54 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 10:20:54 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 10:25:19 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:25:19 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 10:25:24 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 10:25:28 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 10:25:28 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 10:29:02 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:29:02 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 10:29:11 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 10:29:23 INFO  LoginImplementation:46 - 
+Enter correct details
+
+  2023-01-20 10:29:23 INFO  LoginImplementation:47 - 
+Want to enter again press-1
+
+  2023-01-20 10:31:20 INFO  LoginImplementation:28 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:31:20 INFO  LoginImplementation:29 - 
+Enter your USERNAME  :-
+  2023-01-20 10:31:25 INFO  LoginImplementation:33 - 
+Enter your PASSWORD :-
+  2023-01-20 10:40:19 INFO  LoginImplementation:30 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:40:19 INFO  LoginImplementation:31 - 
+Enter your USERNAME  :-
+  2023-01-20 10:40:23 INFO  LoginImplementation:35 - 
+Enter your PASSWORD :-
+  2023-01-20 10:41:45 INFO  LoginImplementation:30 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:41:45 INFO  LoginImplementation:31 - 
+Enter your USERNAME  :-
+  2023-01-20 10:41:48 INFO  LoginImplementation:35 - 
+Enter your PASSWORD :-
+  2023-01-20 10:45:32 INFO  LoginImplementation:30 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 10:45:32 INFO  LoginImplementation:31 - 
+Enter your USERNAME  :-
+  2023-01-20 10:45:42 INFO  LoginImplementation:35 - 
+Enter your PASSWORD :-
+  2023-01-20 10:45:46 INFO  LoginImplementation:53 - 
+########### WELCOME ###########
+
+  2023-01-20 16:20:56 INFO  LoginImplementation:30 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 16:20:56 INFO  LoginImplementation:31 - 
+Enter your USERNAME  :-
+  2023-01-20 16:22:31 INFO  LoginImplementation:30 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 16:22:31 INFO  LoginImplementation:31 - 
+Enter your USERNAME  :-
+  2023-01-20 16:22:38 INFO  LoginImplementation:35 - 
+Enter your PASSWORD :-
+  2023-01-20 16:22:41 INFO  LoginImplementation:53 - 
+########### WELCOME ###########
+
+  2023-01-20 16:22:53 INFO  RouteDaoImpl:34 - enter Route Id
+  2023-01-20 16:22:59 INFO  RouteDaoImpl:36 - enter  Source
+  2023-01-20 16:23:09 INFO  RouteDaoImpl:38 - enter Destination
+  2023-01-20 16:23:19 DEBUG RouteDaoImpl:44 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('123','orangabd','hyderabad') 
+  2023-01-20 16:23:19 INFO  RouteDaoImpl:47 - Added Route Details
+  2023-01-20 16:23:19 INFO  RouteDaoImpl:49 - Values inserted Successfully
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=110, source=r, destination=k]
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=123, source=orangabd, destination=hyderabad]
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 16:23:32 INFO  RouteDaoImpl:103 - Route [routeId=R008, source=Delhi, destination=Shridi]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=110, source=r, destination=k]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=123, source=orangabd, destination=hyderabad]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 16:24:21 INFO  RouteDaoImpl:103 - Route [routeId=R008, source=Delhi, destination=Shridi]
+  2023-01-20 16:51:30 INFO  LoginImplementation:30 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 16:51:30 INFO  LoginImplementation:31 - 
+Enter your USERNAME  :-
+  2023-01-20 16:51:34 INFO  LoginImplementation:35 - 
+Enter your PASSWORD :-
+  2023-01-20 16:51:38 INFO  LoginImplementation:53 - 
+########### WELCOME ###########
+
+  2023-01-20 16:52:04 INFO  RouteDaoImpl:34 - enter Route Id
+  2023-01-20 16:52:08 INFO  RouteDaoImpl:36 - enter  Source
+  2023-01-20 16:52:13 INFO  RouteDaoImpl:38 - enter Destination
+  2023-01-20 16:52:17 DEBUG RouteDaoImpl:44 - I want to inspect PreparedStatement Object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `brms`.`Route` VALUES ('402','tuljapur','pune') 
+  2023-01-20 16:52:17 INFO  RouteDaoImpl:47 - Added Route Details
+  2023-01-20 16:52:17 INFO  RouteDaoImpl:49 - Values inserted Successfully
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=102, source=Pune, destination=Hyderabad]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=110, source=r, destination=k]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=123, source=orangabd, destination=hyderabad]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=402, source=tuljapur, destination=pune]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 16:54:18 INFO  RouteDaoImpl:103 - Route [routeId=R008, source=Delhi, destination=Shridi]
+  2023-01-20 19:02:48 INFO  LoginImplementation:30 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 19:02:48 INFO  LoginImplementation:31 - 
+Enter your USERNAME  :-
+  2023-01-20 19:03:06 INFO  LoginImplementation:35 - 
+Enter your PASSWORD :-
+  2023-01-20 19:03:09 INFO  LoginImplementation:53 - 
+########### WELCOME ###########
+
+  2023-01-20 19:03:21 INFO  RouteDaoImpl:60 - Enter Source to Delete
+  2023-01-20 19:03:31 INFO  RouteDaoImpl:63 - Enter Destination to Delete
+  2023-01-20 19:03:36 INFO  RouteDaoImpl:69 - Values Deleted Sucessfully
+  2023-01-20 19:24:08 INFO  LoginImplementation:30 - 
+########## ENTER LOGIN DETAILS ########### 
+  2023-01-20 19:24:08 INFO  LoginImplementation:31 - 
+Enter your USERNAME  :-
+  2023-01-20 19:24:26 INFO  LoginImplementation:35 - 
+Enter your PASSWORD :-
+  2023-01-20 19:24:32 INFO  LoginImplementation:53 - 
+########### WELCOME ###########
+
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=101, source=Solapur, destination=Pune]
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=110, source=r, destination=k]
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=123, source=orangabd, destination=hyderabad]
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=402, source=tuljapur, destination=pune]
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 19:24:50 INFO  RouteDaoImpl:103 - Route [routeId=R008, source=Delhi, destination=Shridi]
+  2023-01-20 19:25:07 INFO  RouteDaoImpl:60 - Enter Source to Delete
+  2023-01-20 19:25:15 INFO  RouteDaoImpl:63 - Enter Destination to Delete
+  2023-01-20 19:25:17 INFO  RouteDaoImpl:69 - Values Deleted Sucessfully
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:103 - Route [routeId=110, source=r, destination=k]
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:103 - Route [routeId=123, source=orangabd, destination=hyderabad]
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:103 - Route [routeId=402, source=tuljapur, destination=pune]
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 19:25:26 INFO  RouteDaoImpl:103 - Route [routeId=R008, source=Delhi, destination=Shridi]
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:86 - Enter the Route Id
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:103 - Route [routeId=103, source=Kolhapur, destination=Sangli]
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:103 - Route [routeId=104, source=Belgaum, destination=Goa]
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:103 - Route [routeId=105, source=Mumbai, destination=Pune]
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:103 - Route [routeId=106, source=Mysore, destination=Benglore]
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:103 - Route [routeId=107, source=Delhi, destination=Gurgaon]
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:103 - Route [routeId=110, source=r, destination=k]
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:103 - Route [routeId=123, source=orangabd, destination=hyderabad]
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:103 - Route [routeId=402, source=tuljapur, destination=pune]
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:103 - Route [routeId=R0010, source=p, destination=q]
+  2023-01-20 19:27:57 INFO  RouteDaoImpl:103 - Route [routeId=R008, source=Delhi, destination=Shridi]
+  
